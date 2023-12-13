@@ -1,0 +1,81 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: 30px auto;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  padding: 5px;
+  display: flex;
+}
+.book-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.price_amount {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.book > h3,
+h4 {
+  font-size: 1rem !important;
+}
+
+.book {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.book button {
+  background-color: rgba(0, 0, 255, 0.574);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.inputDiv {
+  width: 50% !important;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#shopIcon {
+  font-size: 3rem;
+  color: white;
+}
+.basket {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.basket img {
+  width: 200px;
+  display: flex;
+  margin: 10px;
+  height: 200px;
+  object-fit: contain;
+}
+.amount_inc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+}
+
+.amount_inc button {
+  border: none;
+  border-radius: 30%;
+  font-size: 1.3rem;
+  color: blue;
+  background-color: rgba(255, 127, 80, 0.476);
+}
